@@ -1,0 +1,81 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "1ca09156-3309-4eb8-970f-08161405da7e",
+  "location" : "s3://mstead-iceberg-test/9381046094918178",
+  "last-sequence-number" : 1,
+  "last-updated-ms" : 1690489,
+  "last-column-id" : 9,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "CD_DEMO_SK",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 2,
+      "name" : "CD_GENDER",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "CD_MARITAL_STATUS",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "CD_EDUCATION_STATUS",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "CD_PURCHASE_ESTIMATE",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 6,
+      "name" : "CD_CREDIT_RATING",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 7,
+      "name" : "CD_DEP_COUNT",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 8,
+      "name" : "CD_DEP_EMPLOYED_COUNT",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 9,
+      "name" : "CD_DEP_COLLEGE_COUNT",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "format-version" : "2"
+  },
+  "current-snapshot-id" : 1690489864917,
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 1690489864917,
+    "timestamp-ms" : 1690489,
+    "manifest-list" : "s3://mstead-iceberg-test/9381046094918178/metadata/snap-1690489864917.avro",
+    "schema-id" : 0
+  } ]
+}

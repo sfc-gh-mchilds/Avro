@@ -1,0 +1,126 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "6b7c16be-30ed-4afa-824f-c638091b8673",
+  "location" : "s3://deet-iceberg-test/9381046094918170",
+  "last-sequence-number" : 1,
+  "last-updated-ms" : 1690489,
+  "last-column-id" : 18,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "C_CUSTOMER_SK",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 2,
+      "name" : "C_CUSTOMER_ID",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "C_CURRENT_CDEMO_SK",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 4,
+      "name" : "C_CURRENT_HDEMO_SK",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 5,
+      "name" : "C_CURRENT_ADDR_SK",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 6,
+      "name" : "C_FIRST_SHIPTO_DATE_SK",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 7,
+      "name" : "C_FIRST_SALES_DATE_SK",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 8,
+      "name" : "C_SALUTATION",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 9,
+      "name" : "C_FIRST_NAME",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "C_LAST_NAME",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 11,
+      "name" : "C_PREFERRED_CUST_FLAG",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 12,
+      "name" : "C_BIRTH_DAY",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 13,
+      "name" : "C_BIRTH_MONTH",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 14,
+      "name" : "C_BIRTH_YEAR",
+      "required" : false,
+      "type" : "decimal(38, 0)"
+    }, {
+      "id" : 15,
+      "name" : "C_BIRTH_COUNTRY",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 16,
+      "name" : "C_LOGIN",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 17,
+      "name" : "C_EMAIL_ADDRESS",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 18,
+      "name" : "C_LAST_REVIEW_DATE",
+      "required" : false,
+      "type" : "string"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "format-version" : "2"
+  },
+  "current-snapshot-id" : 1690489854955,
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 1690489854955,
+    "timestamp-ms" : 1690489,
+    "manifest-list" : "s3://deet-iceberg-test/9381046094918170/metadata/snap-1690489854955.avro",
+    "schema-id" : 0
+  } ]
+}
